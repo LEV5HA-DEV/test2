@@ -6,6 +6,21 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+section {
+	padding: 0px 10px 0px 10px;
+}
+button {
+	height: 50px;
+	width: 650px;
+	
+}
+.button_box {
+	/*border: 1px solid red;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
 .gallery {
 	
 	display: flex;
@@ -18,4 +33,21 @@ img {
 	height: auto;
 	padding: 20px 0px 0px 0px;
 	margin: 0;
+}
+
+.box_map {
+	padding: 5px;
+}
+
+@media (max-width: 414px) {
+.gallery {
+	flex-direction: column;
+
+}
+.g_img {
+	width: 100%;
+	/*height: auto;
+	padding: 20px 0px 0px 0px;
+	margin: 0;*/
+}
 }
