@@ -1,6 +1,7 @@
 body {
 	max-width: 650px;
 	margin: 0 auto;
+	font-family: Arial, Veranda, sans-serif;
 }
 a {
     text-transform: inherit;
@@ -15,17 +16,35 @@ img {
 section {
 	padding: 0px 10px 0px 10px;
 }
-button {
+.tele_button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	height: 50px;
 	width: 650px;
-	
+	background-color: #0088cc;
+	border-radius: 5px;
+	text-align: center;
 }
+.whatsapp_button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	width: 650px;
+	background-color: #25D366;
+	border-radius: 5px;
+	text-align: center;
+}
+.button_ico {
+	padding: 0 10px;
+}
+
 footer {
 	background-color: black;
 	display: flex;
 }
-.social_box,
-.button_box {
+.social_box{
 	/*border: 1px solid red;*/
 	display: flex;
 	justify-content: center;
@@ -47,7 +66,7 @@ footer {
 }
 
 .box_map {
-	padding: 0 auto;
+	padding: 2em auto;
 	
 }
 
