@@ -33,7 +33,7 @@ section {
 	justify-content: center;
 	align-items: center;
 	height: 50px;
-	width: 650px;
+	max-width: 650px;
 	background-color: #0088cc;
 	border-radius: 5px;
 	text-align: center;
@@ -43,7 +43,7 @@ section {
 	justify-content: center;
 	align-items: center;
 	height: 50px;
-	width: 650px;
+	max-width: 650px;
 	background-color: #25D366;
 	border-radius: 5px;
 	text-align: center;
