@@ -16,6 +16,18 @@ img {
 section {
 	padding: 0px 10px 0px 10px;
 }
+
+.tel {
+	color: black;
+	padding: 5px;
+	cursor: pointer;
+}
+.tel_box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
 .tele_button {
 	display: flex;
 	justify-content: center;
@@ -43,6 +55,7 @@ section {
 footer {
 	background-color: black;
 	display: flex;
+	margin-top: 2em;
 }
 .social_box{
 	/*border: 1px solid red;*/
@@ -74,6 +87,7 @@ footer {
 /**/
 .hard_pos{
 	margin: 0 auto;
+
 	
 }
 .scan_cod {
